@@ -91,7 +91,7 @@ plot(model_measurement, pars = covariate_names)
 dev.off()
 
 # Figure 10
-model_measurement <- readRDS("measuremen_modelt.rds")
+model_measurement <- readRDS("measurement_model.rds")
 names(model_measurement)[2:12] <- covariate_names
 pdf("Figure_10.pdf")
 plot(model_measurement, pars = covariate_names)
